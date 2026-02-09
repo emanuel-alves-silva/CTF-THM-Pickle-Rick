@@ -1,5 +1,6 @@
 # 🥒 CTF Writeup: Pickle Rick
 > **Plataforma:** [TryHackMe](https://tryhackme.com/)
+> **Sala:** [PickleRick](https://tryhackme.com/room/picklerick)
 > **Dificuldade:** Fácil  
 > **Foco:** Enumeração Web & Escalada de Privilégios
 
