@@ -1,6 +1,6 @@
 # CTF-THM-Pickle-Rick
 # 🥒 CTF Writeup: Pickle Rick
-> **Plataforma:** [TryHackMe](https://tryhackme.com/)  
+> **Plataforma:** [TryHackMe](https://tryhackme.com/)
 > **Dificuldade:** Fácil  
 > **Foco:** Enumeração Web & Escalada de Privilégios
 
