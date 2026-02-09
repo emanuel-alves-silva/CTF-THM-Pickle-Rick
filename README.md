@@ -1,4 +1,3 @@
-# CTF-THM-Pickle-Rick
 # 🥒 CTF Writeup: Pickle Rick
 > **Plataforma:** [TryHackMe](https://tryhackme.com/)
 > **Dificuldade:** Fácil  
@@ -11,7 +10,7 @@ Este laboratório simula um servidor web vulnerável onde precisamos ajudar o Ri
 
 ---
 
-## 🚀 Passo a Passo Técnico
+## 🚀 Passo a Passo
 
 ### 1. Reconhecimento (Recon)
 O primeiro passo foi identificar os serviços ativos na máquina alvo.
@@ -31,7 +30,7 @@ Com o login realizado, acessei um painel de execução de comandos.
 | **Ingrediente 1** | `less Sup3rS3cretPickl3Ingred1ent.txt` | O comando `cat` estava bloqueado pelo servidor. |
 | **Ingrediente 2** | `ls /home/rick` -> `less "/home/rick/second ingredients"` | A flag estava na pasta pessoal do usuário. |
 
-### 4. Escalada de Privilégios (PrivEsc)
+### 4. Escalada de Privilégios
 Para obter o controle total, verifiquei as permissões de administrador.
 * **Comando:** `sudo -l`
 * **Vulnerabilidade:** O usuário atual podia executar qualquer comando como root sem senha (`NOPASSWD: ALL`).
